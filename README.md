@@ -36,3 +36,14 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Squashed commits:
+- Initial commit from Create Next App
+- Set up prisma, nextjs, postgres
+- Fix style of the home page
+- Fix style of the login page
+- Fix style of the onboarding page
+- Removing spaces
+- Update README
+- Add try/catch to getting fun fact
+- Add logout button client
