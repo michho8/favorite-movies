@@ -1,6 +1,6 @@
 This is a project to demonstrate the following:
 - Google NextAuth for signing in and displaying information tied to their account
-- Prisma and Postgres for storing users and their data
+- Prisma and Postgres for storing users and their data (I used Docker for local setup)
 - OpenAI for creating a new fun fact when refreshed
 
 Tech-stack:
@@ -15,7 +15,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Set up the `.env` file:
+DATABASE_URL=""
+NEXTAUTH_URL=""
+NEXTAUTH_SECRET=""
+GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_SECRET=""
+OPENAI_API_KEY=""
+
+Run the development server:
 
 ```bash
 npm run dev
